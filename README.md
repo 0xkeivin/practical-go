@@ -14,3 +14,14 @@ This repo contains a somewhat curated collection of practical Go code and concep
         }
         ```
 - reference: https://www.youtube.com/watch?v=h2RdcrMLQAo
+
+# Channels
+- Unbuffered channels
+    - `synchronous` communication
+    - `blocking` communication
+    - `deadlock` if no receiver is present
+- Buffered channels
+    - has a capacity
+    - `asynchronous` communication
+    - `non-blocking` communication
+    - `deadlock` if buffer is full and no receiver is present
